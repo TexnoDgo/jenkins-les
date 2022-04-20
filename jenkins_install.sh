@@ -18,4 +18,4 @@ echo "Done Install Jenkins"
 
 # View Jenkins start pass
 echo "Jenkins Admin Pass:"
-cat /var/lib/jenkins/secrets/initialAdminPassword
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
