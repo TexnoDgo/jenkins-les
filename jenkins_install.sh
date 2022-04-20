@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Update
+sudo apt update
+
 # Install java
 echo "Start Install Java"
 sudo apt install openjdk-11-jre-headless -y
